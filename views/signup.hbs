@@ -1,0 +1,62 @@
+<form action="/users/signup" method="POST">
+  {{#if errorInput}}
+          <div class="blokRegistration">
+              <h1 class="headerRegistration">Sign up</h1>
+              <div class="inputRegistration">
+                  <div><input class="t-light-gren" type="email" name="email" placeholder="email"></div>
+                  <div><input class="t-light-gren"  name="login" placeholder="login"></div>
+                  <div><input class="t-light-gren" type="text" name="name" placeholder="name"></div>
+                  <div><input class="t-light-gren"  name="lastName" placeholder="last name"></div>
+                  <div><input class="t-light-gren"  name="telephone" placeholder="Telephone"></div>
+                  <div><input class="t-light-gren" type="password" name="password" placeholder="password"></div>
+                  <div><input class="t-light-gren" name="repeat" placeholder="Repeat password"></div>
+              </div>
+
+              <div class="registerButton">
+                  <div><button class="create_accaunt"> Create account</button></div>
+                  <button>Entrance</button>
+              </div>
+          </div>
+      </form>
+
+
+  {{else if errorUserExits}}
+          <div class="blokRegistration">
+              <h1 class="headerRegistration">Sign up</h1>
+              <div class="inputRegistration">
+                  <div><input class="t-light-gren" type="email" name="email" placeholder="email"></div>
+                  <div><input class="t-light-gren"  name="login" placeholder="login"></div>
+                  <div><input class="t-light-gren" type="text" name="name" placeholder="name"></div>
+                  <div><input class="t-light-gren"  name="lastName" placeholder="last name"></div>
+                  <div><input class="t-light-gren"  name="telephone" placeholder="Telephone"></div>
+                  <div><input class="t-light-gren" type="password" name="password" placeholder="password"></div>
+                  <div><input class="t-light-gren" name="repeat" placeholder="Repeat password"></div>
+              </div>
+
+              <div class="registerButton">
+                  <div><button class="create_accaunt"> Create account</button></div>
+                  <button>Entrance</button>
+              </div>
+          </div>
+      </form>
+
+  {{else}}
+          <div class="blokRegistration">
+              <h1 class="headerRegistration">Sign up</h1>
+              <div class="inputRegistration">
+                  <div><input class="t-light-gren" type="email" name="email" placeholder="email"></div>
+                  <div><input class="t-light-gren"  name="login" placeholder="login"></div>
+                  <div><input class="t-light-gren" type="text" name="name" placeholder="name"></div>
+                  <div><input class="t-light-gren"  name="lastName" placeholder="last name"></div>
+                  <div><input class="t-light-gren"  name="telephone" placeholder="Telephone"></div>
+                  <div><input class="t-light-gren" type="password" name="password" placeholder="password"></div>
+                  <div><input class="t-light-gren" name="repeat" placeholder="Repeat password"></div>
+              </div>
+              <div class="registerButton">
+                  <div><button class="create_accaunt"> Create account</button></div>
+                  <button>Entrance</button>
+              </div>
+          </div>
+      </form>
+  {{/if}}
+</form>
