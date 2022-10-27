@@ -1,0 +1,151 @@
+body {
+  position: absolute;
+  width: 1386px;
+  height: 864px;
+  background: #D9D9D9;
+}
+.blokRegistration {
+  position: absolute;
+  right: 35%;
+  width: 340px;
+  height: 620px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+}
+.headerRegistration {
+  position: relative;
+  left: 35%;
+  right: 60%;
+  top: 0%;
+  bottom: 80%;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+.inputRegistration {
+  position: absolute;
+  right: 10%;
+}
+.t-light-gren {
+  margin-bottom: 4px;
+  width: 263px;
+  height: 39.87px;
+  Width: 263px;
+  Height: 39.87px;
+  Top: -164px;
+  Left: 1270px;
+}
+.registerButton {
+  position: relative;
+  left: 25%;
+  top: 60%;
+  width: 247px;
+  height: 37.45px;
+}
+button {
+  position: relative;
+  left: -35px;
+  top: 15%;
+  width: 247px;
+  height: 37.45px;
+  background: #000000;
+  border: 1.44023px solid #000000;
+  border-radius: 4.3207px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 9.36152px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/* --------login ------*/
+.blok_login {
+  position: absolute;
+  right: 35%;
+  width: 340px;
+  height: 320px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+}
+.header_login {
+  position: relative;
+  left: 35%;
+  right: 60%;
+  top: 0%;
+  bottom: 80%;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+.input_login {
+  position: absolute;
+  right: 10%;
+}
+.signin {
+  margin-bottom: 4px;
+  width: 263px;
+  height: 39.87px;
+  Width: 263px;
+  Height: 39.87px;
+  Top: -164px;
+  Left: 1270px;
+}
+.login-button {
+  position: relative;
+  left: 18%;
+  top: 60%;
+  width: 247px;
+  height: 37.45px;
+}
+/* ------navbar-header */
+.header-navbar {
+  position: relative;
+  left: 35%;
+  right: 60%;
+  top: 0%;
+  bottom: 80%;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+/* .header{
+      position: relative;
+    left: 35%;
+    right: 60%;
+    top: 0%;
+    bottom: 80%;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+  } */
