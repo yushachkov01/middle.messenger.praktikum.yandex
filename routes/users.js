@@ -6,6 +6,8 @@ const saltRounds = 10;
 
 const router = express.Router();
 
+
+
 router.get('/signup', function (req, res, next) {
   res.render('signup');
 });
